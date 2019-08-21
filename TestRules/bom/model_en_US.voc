@@ -1,0 +1,12 @@
+# Vocabulary Properties
+uuid = 40e90229-a29a-49b0-b04e-ff9e551ce6df
+
+# com.prolifics.test.TestRequest
+com.prolifics.test.TestRequest#concept.label = test request
+com.prolifics.test.TestRequest.input#phrase.action = set the input of {this} to {input}
+com.prolifics.test.TestRequest.input#phrase.navigation = {input} of {this}
+
+# com.prolifics.test.TestResponse
+com.prolifics.test.TestResponse#concept.label = test response
+com.prolifics.test.TestResponse.output#phrase.action = set the output of {this} to {output}
+com.prolifics.test.TestResponse.output#phrase.navigation = {output} of {this}

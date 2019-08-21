@@ -1,0 +1,19 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/TestRules//TestXOM"
+property uuid "c3073cfb-4701-44ea-b42c-e6fdf35743f4"
+package com.prolifics.test;
+
+
+public class TestRequest
+{
+    public string input;
+    public TestRequest();
+}
+
+public class TestResponse
+{
+    public string output;
+    public TestResponse();
+}
+

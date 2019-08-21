@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>test variables</name>
+  <uuid>048f46f5-5d07-4fdd-b3a4-815f79d20c32</uuid>
+  <variables name="input" type="com.prolifics.test.TestRequest" initialValue="new com.prolifics.test.TestRequest()" verbalization="the request"/>
+  <variables name="output" type="com.prolifics.test.TestResponse" initialValue="new com.prolifics.test.TestResponse()" verbalization="the response"/>
+</ilog.rules.studio.model.base:VariableSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>set output</name>
+  <uuid>624e6588-bca7-4fa9-b6b1-4fe5cbb34e0c</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+    the input of 'the request' is "2"
+then
+    set the output of 'the response' to "400" ;
+    
+    ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

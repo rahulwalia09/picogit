@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="TestRules" targetRuleProjectName="TestRules">
+  <name>TestRules</name>
+  <uuid>b9a8098e-f82a-4891-9fb7-7ea55367ffb7</uuid>
+  <referencedVariables variableName="input" variableSetName="test variables">
+    <variableSet href="../rules/test%20variables.var#048f46f5-5d07-4fdd-b3a4-815f79d20c32"/>
+  </referencedVariables>
+  <referencedVariables variableName="output" variableSetName="test variables" direction="OUT">
+    <variableSet href="../rules/test%20variables.var#048f46f5-5d07-4fdd-b3a4-815f79d20c32"/>
+  </referencedVariables>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="TestRules_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../TestRules#10f1e2cb-f430-4328-b06e-757c118481ce"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
