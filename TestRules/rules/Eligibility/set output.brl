@@ -4,7 +4,7 @@
   <uuid>624e6588-bca7-4fa9-b6b1-4fe5cbb34e0c</uuid>
   <locale>en_US</locale>
   <definition><![CDATA[if
-    the input of 'the request' is "5"
+    the input of 'the request' is "7"
 then
     set the output of 'the response' to "400" ;
     
